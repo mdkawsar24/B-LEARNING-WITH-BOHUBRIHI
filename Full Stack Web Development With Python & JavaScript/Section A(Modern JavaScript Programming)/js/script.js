@@ -195,7 +195,9 @@
 
       //P5 & 6:Exercise – Operators(With Answer)
 
-
+      var a = 49;
+      console.log(a);
+      
       //P5 & 6:Exercise – Operators(With Answer)
 
       
