@@ -1,123 +1,123 @@
 //U1:Now Start Coding!
-      //P1:JavaScript Outputs
-     
-     /*  window.alert("I am 'learning' JavaScript");
-      alert("I am learning HTML");
-      document.write('I am "learning" JavaScript');
-      document.getElementById("root").innerHTML = "I am learning Javascript";
-      document.getElementById("heading1").innerHTML = "This is Heading One";
-      document.getElementById("heading3").innerHTML = "This is Heading Three";
-      console.log("Hello World");
-      document.write("67,5 67.5"); */
-      
-      //P1:JavaScript Outputs Ens here
+//P1:JavaScript Outputs
+
+/*  window.alert("I am 'learning' JavaScript");
+ alert("I am learning HTML");
+ document.write('I am "learning" JavaScript');
+ document.getElementById("root").innerHTML = "I am learning Javascript";
+ document.getElementById("heading1").innerHTML = "This is Heading One";
+ document.getElementById("heading3").innerHTML = "This is Heading Three";
+ console.log("Hello World");
+ document.write("67,5 67.5"); */
+
+//P1:JavaScript Outputs Ens here
 
 //U1:Now Start Coding! Ends Here
 
 //U2:Variables and Constants
-      //P2:Javascript Variables Part 2
-     /* var a = 35;
-     let b = 65;
-     var c = b;
-     var d = a + b;
-     //document.write(a);
-     //document.write(b);
-     
-     a = 45.7;//always latest value print kore
-     console.log(a);
-     console.log(b);
-     console.log(c);
-     console.log(d);
-     a = "Md kawsar Mia"
-     b = 95;
-      //console.log(a);
-      console.log(a);
-      console.log(b);
-      console.log(c);//b er man 95 holeo a er c er man 65 tekhe jabe karon c er man 2nd time change kora hoini
-      var e =20;
-      console.log(e);
-      var e;
-      console.log(e);
+//P2:Javascript Variables Part 2
+/* var a = 35;
+let b = 65;
+var c = b;
+var d = a + b;
+//document.write(a);
+//document.write(b);
 
-      //valid variables: $a, _abc, abc123{only underscore and dollar sign can be used before}
-      //invalid variables:123,123abc
-      //var myName, MyName;{they are different variables,that means variables are case sensetive} */
-      
-      //P2:Javascript Variables Part 2 Ends Here
+a = 45.7;//always latest value print kore
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+a = "Md kawsar Mia"
+b = 95;
+ //console.log(a);
+ console.log(a);
+ console.log(b);
+ console.log(c);//b er man 95 holeo a er c er man 65 tekhe jabe karon c er man 2nd time change kora hoini
+ var e =20;
+ console.log(e);
+ var e;
+ console.log(e);
 
-      //P3:Javascript Constants and Keywords
+ //valid variables: $a, _abc, abc123{only underscore and dollar sign can be used before}
+ //invalid variables:123,123abc
+ //var myName, MyName;{they are different variables,that means variables are case sensetive} */
 
-     /* const a = 5;
-     console.log(a); */
-     //a = 5 + 3;{not accepted because const cannot be assign again }
-     /* const b;
-     b = 5;[not accepted because const value need to assign initially ]
-     */
-       // keywords cannot be the name of variables jemon var = const;
-    //https: //www.w3schools.in/javascript-tutorial/keywords/
+//P2:Javascript Variables Part 2 Ends Here
 
-    //P3:Javascript Constants and Keywords Ends Here
+//P3:Javascript Constants and Keywords
+
+/* const a = 5;
+console.log(a); */
+//a = 5 + 3;{not accepted because const cannot be assign again }
+/* const b;
+b = 5;[not accepted because const value need to assign initially ]
+*/
+// keywords cannot be the name of variables jemon var = const;
+//https: //www.w3schools.in/javascript-tutorial/keywords/
+
+//P3:Javascript Constants and Keywords Ends Here
 
 //U2:Variables and Constants Ends Here
 
 //U3:Operators
-      //P1:Arithmetic Operators
-      /* var a = 2;
-      var b = 3;
-      console.log(a);
-      var c , d;
-      c = a + b;
-      console.log(c);
-      console.log(a ** b);
-      //increment operator a++/++a both are almost same
-      a++;
-      ++b;
-      console.log(a);
-      console.log(b);
-      c = a++; //post increment
-      d = ++b; //pre increment
-      console.log(a);
-      console.log(c);
-      console.log(d);
-      c = --a;
-      d = b--;
-      console.log(c); //age a er man 4 silo tai ekhane 3 hoiyese
-      console.log(a);//c = --a ekhane a er man 3
-      console.log(d);
-      console.log(b);
-      a = (3 - 5) * 5 / 7 + 4 ** 4;//(most priority goes to **)but (3-5)bracket er vitor tai er kaj age hobe */
-      
-      //P1:Arithmetic Operators Ends Here
-      
-      //P2:String Operators
+//P1:Arithmetic Operators
+/* var a = 2;
+var b = 3;
+console.log(a);
+var c , d;
+c = a + b;
+console.log(c);
+console.log(a ** b);
+//increment operator a++/++a both are almost same
+a++;
+++b;
+console.log(a);
+console.log(b);
+c = a++; //post increment
+d = ++b; //pre increment
+console.log(a);
+console.log(c);
+console.log(d);
+c = --a;
+d = b--;
+console.log(c); //age a er man 4 silo tai ekhane 3 hoiyese
+console.log(a);//c = --a ekhane a er man 3
+console.log(d);
+console.log(b);
+a = (3 - 5) * 5 / 7 + 4 ** 4;//(most priority goes to **)but (3-5)bracket er vitor tai er kaj age hobe */
 
-      /* var line1 = "Hello";
-      var line2 = " World";
-      console.log(line1 + line2);
-      var line3 = "Hello";
-      var line4 = "World";
-      console.log(line3 + " " + line4);
-      var a = "Hello";
-      var b = 34;
-      var c = 4;
-      console.log(a + b + c); //concatenate,it goes from left to right>Hello344..ortat ekhane hello er sathe 34 er joog korte partesena
-       var d = 34;
-       var e = 4;
-       var f = "Hello";
-       console.log(d + e + f); //they will add first two numbers>38Hello..ekhane 34 er sathe 4 er joog korte partese 
-      var g = "34";
-      var h = "4";
-      console.log(g + h);//344 hoiye jabe(jooger somoy)
-      console.log(g - h);//30 hobe (bioger somoy)
-       var i = "4";
-       var j = "Hello";
-       console.log(i - j); //nan>not a number*/
+//P1:Arithmetic Operators Ends Here
 
-       //P2:String Operators Ends Here
+//P2:String Operators
 
-       //P3:Comparison, Logical and Conditional Operators
-      //Comparison Part
-       /* var a = 6;
+/* var line1 = "Hello";
+var line2 = " World";
+console.log(line1 + line2);
+var line3 = "Hello";
+var line4 = "World";
+console.log(line3 + " " + line4);
+var a = "Hello";
+var b = 34;
+var c = 4;
+console.log(a + b + c); //concatenate,it goes from left to right>Hello344..ortat ekhane hello er sathe 34 er joog korte partesena
+ var d = 34;
+ var e = 4;
+ var f = "Hello";
+ console.log(d + e + f); //they will add first two numbers>38Hello..ekhane 34 er sathe 4 er joog korte partese 
+var g = "34";
+var h = "4";
+console.log(g + h);//344 hoiye jabe(jooger somoy)
+console.log(g - h);//30 hobe (bioger somoy)
+ var i = "4";
+ var j = "Hello";
+ console.log(i - j); //nan>not a number*/
+
+//P2:String Operators Ends Here
+
+//P3:Comparison, Logical and Conditional Operators
+//Comparison Part
+/* var a = 6;
        var b = - 5;
        console.log(a==b);
        console.log(a != b);
@@ -137,67 +137,161 @@
        console.log(e);
        var f = 5 < 4
        console.log(f);*/
-       //Comparison Parts Ends here
-       
-      //Logical Operator
-       /* true || true
-       true || false
-       false || true
-       false || false
-       true || true || false//true return kore beacause or operator e jekono ekta true holei true return kore
-       true && true
-       true && false
-       false && true
-       false && false
-       !true//false return kore
-       !false//true return kore */
-       /* (5>7) || (6<8);
-       var a = (5>7);
-       var b = (6<-8);
-       console.log(a || b);
-       console.log(a && b);
-       (4 < 6) && (1 > -9);// true return kore
-       (4 < 6) && !(1 > -9); // false return kore, because ! not use kora hoiyse */
-      //Logical Operator Ends Here
+//Comparison Parts Ends here
 
-      //Conditional Operators
-      /* var a = (8<6) ? "Hello":"World";
-      console.log(a);// 8 tekhe 6 boro condition ta jodi true hoi tahole Hello dekhabe r jodi false hoi tahole World dekhabe */
-      //Conditional Operators Ends Here
+//Logical Operator
+/* true || true
+true || false
+false || true
+false || false
+true || true || false//true return kore beacause or operator e jekono ekta true holei true return kore
+true && true
+true && false
+false && true
+false && false
+!true//false return kore
+!false//true return kore */
+/* (5>7) || (6<8);
+var a = (5>7);
+var b = (6<-8);
+console.log(a || b);
+console.log(a && b);
+(4 < 6) && (1 > -9);// true return kore
+(4 < 6) && !(1 > -9); // false return kore, because ! not use kora hoiyse */
+//Logical Operator Ends Here
 
-      //P3:Comparison, Logical and Conditional Operators Ends Here
+//Conditional Operators
+/* var a = (8<6) ? "Hello":"World";
+console.log(a);// 8 tekhe 6 boro condition ta jodi true hoi tahole Hello dekhabe r jodi false hoi tahole World dekhabe */
+//Conditional Operators Ends Here
 
-      //P4:Assignment Operators
+//P3:Comparison, Logical and Conditional Operators Ends Here
 
-      /* var a = 20;
-      var b = 12;
-      a = b;//b er value a te chole jabe
-      console.log(a);
-      var c = a + b;
-      console.log(c);//c er man 24 hobe
-      a += 18; //a = a + 18;
-      console.log(a);//a er man 30 hobe because age a = b te a er man 12 silo
-      a -= 10; //a = a - 10;
-      console.log(a);//age a er man 30 hoiyesili then 10 minus kore 20 hoise
-      a *= 10; //a = a * 10;
-      console.log(a);
-      a /= 10; //a = a / 10;
-      console.log(a);
-      a %= 8; //a = a % 8;
-      console.log(a);
-      var name = "Hello ";
-      name += "World"; //name = name + "World";
-      console.log(name);
-      name += "!";
-      console.log(name); */
+//P4:Assignment Operators
 
-      //P4:Assignment Operators Ends Here
+/* var a = 20;
+var b = 12;
+a = b;//b er value a te chole jabe
+console.log(a);
+var c = a + b;
+console.log(c);//c er man 24 hobe
+a += 18; //a = a + 18;
+console.log(a);//a er man 30 hobe because age a = b te a er man 12 silo
+a -= 10; //a = a - 10;
+console.log(a);//age a er man 30 hoiyesili then 10 minus kore 20 hoise
+a *= 10; //a = a * 10;
+console.log(a);
+a /= 10; //a = a / 10;
+console.log(a);
+a %= 8; //a = a % 8;
+console.log(a);
+var name = "Hello ";
+name += "World"; //name = name + "World";
+console.log(name);
+name += "!";
+console.log(name); */
 
-      //P5 & 6:Exercise – Operators(With Answer)
-      
-      
-      //P5 & 6:Exercise – Operators(With Answer)
+//P4:Assignment Operators Ends Here
 
-      
+//P5 & 6:Exercise – Operators(With Answer)
+/* var c = prompt("Enter Temperature in Celcius: ");
+var f = 9 / 5 * c + 32;
+window.alert("Fahrenheit: " + f + " Degree");
+
+console.log("Task Complete!"); */
+/* var temp = prompt("Please enter temperature: ");
+var result = 9 / 5 * temp + 32;
+alert("Fahrenheit: " + result + " Degree");
+console.log("Task Complete!"); */
+
+//P5 & 6:Exercise – Operators(With Answer) Ends Here
+
+
+
 //U3:Operators Ens Here
 
+//U4:Data Types 
+
+//P1:Different Types of Data
+
+/* var man = {
+      name: "kawsar",
+      age: 21,
+      home: "Brahmanbaria"
+} */
+
+//P1:Different Types of Data Ends Here
+
+//P2:Numbers
+
+var a = 0xbb;
+console.log(a);
+a.toString()
+console.log(a);
+var c = a.toString(2)
+console.log(c);
+
+a = a.toString()
+console.log(a);
+var b = a.toString()
+console.log(b);
+
+
+
+
+/* var x;
+x = 3.141;
+x = 34;
+x = 123e5; // 123 * 10 ** 5
+x = 123e-5; // 123 * 10 ** -5
+
+// Numbers takes 64 bits
+
+// + can be used for both addition and concatenation
+"34" + "45" // will be string
+34 + "45" // will be string
+"34" + 45 // will be string
+      "The result is " + 34 + 45
+34 + 45 + "is the result"
+34 + 45 + "13"
+
+//Numeric Strings
+"25" - "5"
+"25" / "5" // result 10
+"25" * "5"
+"25" % "5"
+"25" + "5" //exception
+
+//Infinity
+var num = Infinity;//infinity is also a number
+25 / 0 // will get Infinity
+
+
+//Hexa Decimal Numbers,need to use x for hexadecimal number 
+var x = 0xBB
+
+x.toString() // Returns number as string
+
+x.toString(16);
+
+var x = 3.1416;
+x.toPrecision();
+x.toPrecision(2);
+x.toPrecision(4);
+x.toPrecision(6);
+
+var x = "123"
+parseInt(x);
+x = "123.45"
+parseFloat(x);
+
+isNaN(x);
+
+//Links
+//https://www.w3schools.com/jsref/jsref_obj_number.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number */
+
+//P2:Numbers Ends here
+
+
+//U4:Data Types Ends Here
