@@ -223,8 +223,201 @@ console.log("Task Complete!"); */
 //P1:Different Types of Data Ends Here
 
 //P2:Numbers
-
+/* var c = 187;
+var a = c.toString(2);
+console.log(a);
+var x = "kawsar0179";//mix character
+console.log(isNaN(x));
+var e = 10;
+console.log(isNaN(e)); */
 
 //P2:Numbers Ends here
 
+//P3:Strings
+
+/* var a = 'Hello '''''' world';//single quotataion er vitor single quotation rakha jaina, tai ekhane error dekhabe
+console.log(a);
+var b = "Hello '''' World";//single quotation er vitor double ebong double quotation er vitor single quotation rakha jai
+console.log(b);
+var c = "I am " "Kawsar";//double quotation er vitor double quotation rakha jaina tai error dekhabe
+console.log(c);
+var x = "Hello \" World";//back slash die double quotation er vitor double quotation ebong single er vitor single quotation use valid
+console.log(x);
+var y = "Hello \\ World";//back slash dekhanoor jonno doita backslash dite hoi
+console.log(y);
+var e = "Hello \t\t World";//backslash t use hoi boro space dewar jonno, ekhane doita use kora hoise onek space er jonno
+console.log(e);
+var d = "Hello \n World";//back slash n use hoi break dewar jonno
+console.log(d);
+z = "Bohubrihi".length;
+console.log(z);
+var f = "Kawsar";
+f.concat(z, "efg", "123");
+console.log(f); */
+
+//P3:Strings Ends Here
+
+//P4:Booleans
+
+
+//P4:Booleans Ends Here
+
+//P5:Arrays Part 1
+
+/* var countries = ["Bangladesh", "India", "America" ]
+console.log(countries);
+console.log(countries[0]);
+console.log(countries.length);
+countries[1] = "Poland";
+console.log(countries[1]);
+countries[3] = "Norway";
+console.log(countries[3]);
+countries[countries.length] = "Sewden"//spelling mistake
+console.log(countries);
+countries[4] = "Sweden"//spelling mistake solved
+console.log(countries);
+countries.push("China")
+console.log(countries);
+countries.pop();
+console.log(countries);
+countries.push("Pakistan", "Japan")
+console.log(countries);
+countries.shift()
+console.log(countries);
+countries.unshift("Bangladesh")
+console.log(countries); */
+
+//P5:Arrays Part 1 Ends Here
+
+//P6:Arrays Part 2
+
+/* var numbers = []
+console.log(numbers);
+numbers.push(12)
+console.log(numbers);
+numbers.push("two")
+console.log(numbers);
+var x = "Bangladesh";
+var y = x.split("")
+console.log(y);
+var a = "Bangladesh is a country";
+var b = a.split("n");
+console.log(b);
+b = a.split(" ");
+console.log(b);
+var c = "Bangladesh, China, Findland";
+var d = c.split(",");
+console.log(d);
+var e = d.toString()
+console.log(e);
+var f = "Bangldesh is a country";
+var g = f.split(" ");
+console.log(g);
+var h = g.toString()
+console.log(h);
+h = g.join("/");
+console.log(h);
+h = g.join(" ");
+console.log(h);
+h = c.concat(f);
+console.log(h); */
+
+
+//P6:Arrays Part 2 Ends Here
+
+//P7:Objects
+
+/* var student = { name: "Kawsar", age:22, hometown:"Brahmanbaria"}
+console.log(student);
+
+console.log(student["name"]);
+console.log(student.name);
+console.log(student.age);
+student["occupation"] = "student";//new 
+console.log(student);
+student.village = "Sadakpur";
+console.log(student);
+delete student.village
+console.log(student);
+student = {}
+console.log(student);
+student.name = "Karim"
+student.age = 23
+console.log(student); */
+
+
+//P7:Objects Ends Here
+
+//P8:More on Arrays and Objects
+
+/* var arr = [ 1, 2, ["a", "b"], 3, 4];
+console.log(arr);
+console.log(arr[0]);
+console.log(arr[2]);
+console.log(arr[2][0]);//array er vitor onno r ekta array er 0 number element ta dekha hoise
+var array = [ 1, 2, ["a", ["word1", "word2"], "b"], 3, 4];
+console.log(array[2][1][1]);
+var arry = [ 1, 2, ["a", "b"], {prop1:"item 1", prop2:"item 2"}] ;
+console.log(arry);
+console.log(arry[3]["prop1"]);
+console.log(arry[3].prop1);
+var aray = ["item 1", "item 2", { prop1:"item 1", prop2:[1, 2, ["a", "b"]]}];
+console.log(aray);
+console.log(aray[2]["prop2"][2][0]);
+console.log(aray[2].prop2);
+console.log(aray[2].prop2[2]);
+console.log(aray[2].prop2[2][0]);
+var obj = {prop1:"prop 1", prop2:"prop 2", prop3:["item 1 of prop 3", "item 2 of prop 3"]}
+console.log(obj);
+console.log(obj.prop3[1]); */
+
+
+//P8:More on Arrays and Objects Ends Here
+
+//P9:Undefined, Empty values, null, NaN
+
+
+//P9:Undefined, Empty values, null, NaN Ends Here
+
+//P10:Primitive and Reference Types
+
+//P10:Primitive and Reference Types Ends Here
+
 //U4:Data Types Ends Here
+
+//U5:Template Literals (ES6)
+
+//P1:Template Literals (ES6)
+
+/* console.log("First line \nSecond line");
+console.log(`First line
+Second line`);//Backtick use kore
+var a = `First line
+Second line`;
+console.log(a);
+let age = 36;
+console.log("His age is: " + age);
+console.log(`His age is${age}`)
+let name = "Rahim";
+let agee = 25;
+let dob = "16th April, 1995";
+console.log(`His name is: ${name}
+His age is: ${agee}
+His date of birth is: ${dob}.`);
+let x = 60;
+let y = 40;
+console.log(`${x} + ${y} = ${x + y}`); */
+
+//P1:Template Literals (ES6) Ends Here
+
+//U5:Template Literals (ES6) Ends Here
+
+//U6:Conditions
+
+//P1:If Statement
+
+
+
+//P1:If Statement Ends Here
+
+//U6:Conditions Ends Here
